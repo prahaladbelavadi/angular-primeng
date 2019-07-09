@@ -10,13 +10,15 @@ import { PanelsComponent } from './panels/panels.component';
 import {AccordionModule} from 'primeng/accordion';
 import {CardModule} from 'primeng/card';
 import {TabViewModule} from 'primeng/tabview';
+import { CalendarComponent } from './calendar/calendar.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PanelsComponent
+    PanelsComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
