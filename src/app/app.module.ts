@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { PanelsComponent } from './panels/panels.component';
 import {AccordionModule} from 'primeng/accordion';
 import {CardModule} from 'primeng/card';
+import {TabViewModule} from 'primeng/tabview';
+
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import {CardModule} from 'primeng/card';
     AppRoutingModule,
     ButtonModule,
     AccordionModule,
-    CardModule
+    CardModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
