@@ -11,6 +11,7 @@ import {AccordionModule} from 'primeng/accordion';
 import {CardModule} from 'primeng/card';
 import {TabViewModule} from 'primeng/tabview';
 import { CalendarComponent } from './calendar/calendar.component';
+import {FullCalendarModule} from 'primeng/fullcalendar';
 
 
 
@@ -27,7 +28,8 @@ import { CalendarComponent } from './calendar/calendar.component';
     ButtonModule,
     AccordionModule,
     CardModule,
-    TabViewModule
+    TabViewModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
