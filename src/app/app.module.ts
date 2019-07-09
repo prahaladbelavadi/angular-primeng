@@ -6,10 +6,12 @@ import { ButtonModule } from 'primeng/button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PanelsComponent } from './panels/panels.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PanelsComponent
   ],
   imports: [
     BrowserModule,
